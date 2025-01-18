@@ -29,21 +29,16 @@ You can view the project live by visiting the hosted GitHub Pages or by running 
 2. Open the index.html file in your preferred web browser.
    You can also deploy the website to platforms like GitHub Pages, Netlify, or Vercel for live hosting.
 
-Usage
-Homepage: The landing page with an introduction to Gyan Plus.
-Courses Section: Explore different courses like Mathematics, Science, English, etc., with the option to view more details.
-About Us: Learn about the mission and goals of Gyan Plus.
-Contact Page: Reach out for support or inquiries.
-Blog: Stay updated with the latest news and educational content.
-Screenshots
-Homepage
+##Usage
+**Homepage**: The landing page with an introduction to Gyan Plus.
+**Courses Section**: Explore different courses like Mathematics, Science, English, etc., with the option to view more details.
+**About Us**: Learn about the mission and goals of Gyan Plus.
+**Contact Page**: Reach out for support or inquiries.
+**Blog**: Stay updated with the latest news and educational content.
 
-Courses Page
 
-Project Structure
-bash
-Copy
-Edit
+##Project Structure
+
 /assets
   /images       # Images used across the site
   /styles       # CSS styles
@@ -59,6 +54,7 @@ hindi.html       # Hindi course page
 Maths.html       # Maths course page
 Science.html     # Science course page
 README.md        # Project documentation
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -73,5 +69,5 @@ Open a Pull Request for review.
 Contact
 For any questions or feedback, feel free to reach out:
 
-Email: your-email@example.com
+Email: nichyuthak@gmail.com
 GitHub: github.com/Nichyu1
