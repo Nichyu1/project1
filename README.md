@@ -22,8 +22,7 @@ You can view the project live by visiting the hosted GitHub Pages or by running 
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, etc.)
 
-### Steps to run the project locally:
-1. **Clone this repository**:
+
    ```bash
    git clone https://github.com/Nichyu1/project1.git
 
