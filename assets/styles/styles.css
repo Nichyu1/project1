@@ -1,0 +1,230 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Ensure links take the color of the parent */
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern touch */
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #005cbf;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #005cbf;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #003c8f;
+}
+
+
+/* Footer Styles */
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: black;
+    padding: 2px 3px;  /* Further reduced padding */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.6rem;  /* Smaller font size */
+    line-height: 0.4;  /* Reduced line-height to minimize space */
+}
+
+/* Button Styles */
+.cta-button {
+    padding: 12px 25px;
+    background-color: #005cbf;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #003c8f;
+    transform: translateY(-2px); /* Hover effect */
+}
+
+/* Page Sections */
+.courses, .about, .contact, .blog {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.courses h2, .about h2, .contact h2, .blog h2 {
+    color: #005cbf;
+    margin-bottom: 40px;
+}
+
+/* Course Card Styles */
+.course-card, .blog-post {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.course-card h3, .blog-post h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.course-card p, .blog-post p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Contact Form Styles */
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact form button {
+    padding: 12px 25px;
+    background-color: #005cbf;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+    background-color: #003c8f;
+}
+
+/* Course Details Styles */
+.course-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    line-height: 1.8;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Add space between header and content */
+    
+}
+
+.course-details img {
+    width: 70%; /* Adjust width */
+    max-width: 400px; /* Max width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block; /* Makes it a block element */
+    margin-left: auto; /* Automatically set left margin */
+    margin-right: auto; /* Automatically set right margin */
+}
+
+
+.course-details h1,
+.course-details h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.course-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.course-details p {
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .course-card, .blog-post {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .contact form {
+        padding: 20px;
+    }
+
+    header {
+        text-align: left;
+        padding: 15px;
+    }
+    
+    header nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    header nav ul li a {
+        display: block;
+    }
+}
